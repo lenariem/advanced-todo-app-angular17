@@ -1,5 +1,5 @@
 import { Component, computed, DestroyRef, inject, input } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, RouterOutlet } from '@angular/router';
 
 import { UsersService } from '../users.service';
 import { User } from '../user/user.model';
@@ -9,6 +9,7 @@ import { User } from '../user/user.model';
   standalone: true,
   templateUrl: './user-tasks.component.html',
   styleUrl: './user-tasks.component.css',
+  imports: [RouterOutlet]
 })
 export class UserTasksComponent {
   loadedUserId: string | null = null;
