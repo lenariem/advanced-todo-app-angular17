@@ -21,12 +21,14 @@ import { User } from '../user/user.model';
 })
 export class UserTasksComponent {
   loadedUserId: string | null = null;
- // userName: string | undefined;
+  // userName: string | undefined;
   userName = input.required<string>();
 
   message = input.required<string>();
 
- /*  private usersService = inject(UsersService);
+  private activatedRoute = inject(ActivatedRoute);
+
+  /*  private usersService = inject(UsersService);
   private route = inject(ActivatedRoute);
   private destroyRef = inject(DestroyRef);
 
@@ -67,7 +69,15 @@ export class UserTasksComponent {
 
     this.destroyRef.onDestroy(() => subscription.unsubscribe());
   }*/
-} 
+
+ /*  ngOnInit() {
+    this.activatedRoute.data.subscribe({
+      next: (data) => {
+        console.log(data);
+      },
+    });
+  } */
+}
 
 export const resolveUserName: ResolveFn<string> = (
   activatedRoute: ActivatedRouteSnapshot,
