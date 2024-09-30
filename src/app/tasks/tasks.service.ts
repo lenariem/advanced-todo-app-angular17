@@ -2,7 +2,9 @@ import { Injectable, signal } from '@angular/core';
 
 import { type NewTaskData } from './task/task.model';
 
-@Injectable({ providedIn: 'root' })
+// service a part of lazy load in providers in user.routes, thats why no ({ providedIn: 'root' })
+
+@Injectable()
 export class TasksService {
   private tasks = signal([
     {
