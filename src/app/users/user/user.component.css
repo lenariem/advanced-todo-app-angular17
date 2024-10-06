@@ -9,8 +9,8 @@ a {
   align-items: center;
   gap: 0.5rem;
   padding: 0.35rem 0.5rem;
-  background-color: #433352;
-  color: #c3b3d1;
+  background-color: #6795a4;
+  color: #000;
   border: none;
   font: inherit;
   cursor: pointer;
@@ -18,12 +18,13 @@ a {
   min-width: 10rem;
   text-align: left;
   text-decoration: none;
+  transition: background-color 0.3s ease;
 }
 
 a:hover,
 a:active,
 .selected {
-  background-color: #9965dd;
+  background-color: rgba(238, 124, 82, 0.889);
   color: #150722;
 }
 

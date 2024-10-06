@@ -3,7 +3,7 @@
   border-radius: 8px;
   max-height: 60vh;
   overflow: auto;
-  background-color: #3a2c54;
+  background-color: #129c9ebd;
 }
 
 header {
@@ -29,8 +29,8 @@ menu {
 menu a {
   font: inherit;
   cursor: pointer;
-  color: #181223;
-  background-color: #9965dd;
+  color: #fff;
+  background-color: rgba(238, 124, 82, 0.889);
   border-radius: 4px;
   border: none;
   padding: 0.35rem 0.8rem;
@@ -40,7 +40,7 @@ menu a {
 
 menu a:hover,
 menu a:active {
-  background-color: #a565dd
+  background-color: rgb(253, 114, 64);
 }
 
 @media (min-width: 768px) {

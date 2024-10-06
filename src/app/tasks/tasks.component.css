@@ -1,11 +1,12 @@
 a {
   text-decoration: none;
-  color: #c6a7ed;
+  color: #000;
+  transition: color 0.3s ease;
 }
 
 a:hover,
 a:active {
-  color: #845fb0;
+  color: #fffefe;
 }
 
 ul {

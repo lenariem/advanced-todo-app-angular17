@@ -9,8 +9,8 @@ header {
   text-align: center;
   background: linear-gradient(
     to bottom,
-    #2c0a4c,
-    #450d80
+    #129c9e,
+    #6795a4
   );
   padding: 1rem;
   border-bottom-right-radius: 12px;
@@ -31,7 +31,7 @@ h1 {
 
 p {
   margin: 0;
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-wrap: balance;
 }
 
