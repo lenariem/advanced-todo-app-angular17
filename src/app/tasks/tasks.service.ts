@@ -30,6 +30,34 @@ export class TasksService {
         'Prepare and describe an issue template which will help with project management',
       dueDate: '2024-06-15',
     },
+    {
+      id: 't4',
+      userId: 'u4',
+      title: 'User Testing',
+      summary: 'Conduct user testing for the prototype and gather feedback.',
+      dueDate: '2024-06-15',
+  },
+  {
+      id: 't5',
+      userId: 'u4',
+      title: 'Final Design Review',
+      summary: 'Review and finalize the design based on user feedback.',
+      dueDate: '2024-06-30',
+  },
+  {
+      id: 't6',
+      userId: 'u5',
+      title: 'Launch Marketing Campaign',
+      summary: 'Prepare and launch the marketing campaign for the product launch.',
+      dueDate: '2024-07-15',
+  },
+  {
+      id: 't7',
+      userId: 'u6',
+      title: 'Develop Backend Features',
+      summary: 'Implement backend features necessary for the online shop.',
+      dueDate: '2024-07-30',
+  }
   ]);
 
   allTasks = this.tasks.asReadonly();
