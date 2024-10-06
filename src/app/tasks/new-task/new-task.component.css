@@ -21,14 +21,14 @@ dialog {
 
 h2 {
   margin: 0;
-  color: #d0c2e1;
+  color: #151515;
 }
 
 label {
   display: block;
   font-weight: bold;
   font-size: 0.85rem;
-  color: #ab9ac0;
+  color: #fff;
   margin-bottom: 0.25rem;
 }
 
@@ -60,7 +60,7 @@ button {
 }
 
 a {
-  color: #bdadcf;
+  color: #151515;
   text-decoration: none;
 }
 
@@ -70,14 +70,14 @@ a:active {
 }
 
 button[type="submit"] {
-  background-color: #9c73ca;
+  background-color: rgba(238, 124, 82, 0.889);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
 }
 
 button[type="submit"]:hover,
 button[type="submit"]:active {
-  background-color: #895cce;
+  background-color: rgb(238, 124, 82);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
 }
 
