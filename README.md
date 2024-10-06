@@ -1,7 +1,7 @@
 # Advanced TODO Angular App
 **to take a look please click this link:** 
 
-https://recipe-book-angular.vercel.app/
+https://advanced-todo-app-angular17.vercel.app/
 
 ### Technologies used: 
 * Angular 17 (Lazy Loading, Standalone, signals, new Routing features);
